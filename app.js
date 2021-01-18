@@ -8,8 +8,8 @@ button.addEventListener('click', function () {
 
 
 const randomColor = () => {
-  const r = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-    return `rgb(${r}, ${g}, ${b})`;  
+  const R = Math.floor(Math.random() * 256);
+  const G = Math.floor(Math.random() * 256);
+  const B = Math.floor(Math.random() * 256);
+    return `rgb(${R}, ${G}, ${B})`;  
 }
