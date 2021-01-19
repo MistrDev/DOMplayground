@@ -11,5 +11,8 @@
 }
 
 .sig{
-    position:bottom;
+    position: absolute;
+    bottom: 0%;
+    text-decoration: underline;
+    color: black;
 }
