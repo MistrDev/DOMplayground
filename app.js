@@ -13,3 +13,14 @@ const randomColor = () => {
   const B = Math.floor(Math.random() * 256);
     return `rgb(${R}, ${G}, ${B})`;  
 }
+
+
+
+const buttons = document.querySelectorAll('button');
+
+for (let button of buttons) {
+    button.addEventListener('click', function() {
+        button.style.backgroundColor = randomColor();
+        button.style.color = randomColor();
+    })
+}
