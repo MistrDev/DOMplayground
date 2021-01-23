@@ -1,9 +1,9 @@
 const button = document.querySelector('button');
-const h1 = document.querySelector('h1');
+const rgb = document.getElementsByClassName('rgbGen');
 button.addEventListener('click', function () {
   const newColor = randomColor();
   document.body.style.backgroundColor = newColor;
-  h1.innerText = newColor;
+  rgb.innerText = newColor;
 })
 
 
@@ -24,3 +24,5 @@ for (let button of buttons) {
         button.style.color = randomColor();
     })
 }
+
+
