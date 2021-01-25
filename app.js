@@ -1,3 +1,4 @@
+// This is the  RGB button and h3
 const button = document.querySelector('button');
 const h3 = document.querySelector('h3');
 button.addEventListener('click', function () {
@@ -6,7 +7,7 @@ button.addEventListener('click', function () {
   h3.innerText = newColor;
 })
 
-
+// This function gives us a random color and returns it in rgb 
 const randomColor = () => {
   const R = Math.floor(Math.random() * 256);
   const G = Math.floor(Math.random() * 256);
@@ -15,7 +16,7 @@ const randomColor = () => {
 }
 
 
-
+// several buttons that change colors when clicked
 const buttons = document.querySelectorAll('button');
 
 for (let button of buttons) {
