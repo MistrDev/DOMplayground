@@ -22,3 +22,8 @@
 body {
     background-color: rgb(223, 223, 223);
 }
+
+.subBtn{
+    width: 10%;
+    height: 10%;
+}
