@@ -27,3 +27,6 @@ for (let button of buttons) {
 }
 
 
+// this will take the users input and make a <ul> while preventing the default action
+ 
+const comments = document.querySelector('#comments')
