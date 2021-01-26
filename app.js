@@ -16,7 +16,7 @@ const randomColor = () => {
 }
 
 
-// several buttons that change colors when clicked
+// ALL buttons on page change colors when clicked
 const buttons = document.querySelectorAll('button');
 
 for (let button of buttons) {
@@ -28,5 +28,8 @@ for (let button of buttons) {
 
 
 // this will take the users input and make a <ul> while preventing the default action
- 
 const comments = document.querySelector('#comments')
+comments.addEventListener('submit' , function(e){
+  console.log('You submitted!');
+  e.preventDefault();
+})
