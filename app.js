@@ -39,7 +39,7 @@ usernameInput.value = '';
 commentsInput.value = '';
 });
 
-// this makes a new <b> tag and <li> and posts the users comment below
+// this makes a new <b> tag and <li> and posts the users comment below.
 const addComment = (username,comments) => {
  const newComment = document.createElement('li');
  const bTag = document.createElement('b');
