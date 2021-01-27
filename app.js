@@ -28,8 +28,15 @@ for (let button of buttons) {
 
 
 // this will take the users input and make a <ul> while preventing the default action
-const comments = document.querySelector('#comments')
-comments.addEventListener('submit' , function(e){
-  console.log('You submitted!');
-  e.preventDefault();
-})
+const comments = document.querySelector('#comments');
+comments.addEventListener('submit' , function(e) {
+e.preventDefault();
+const username = comments.elements.username.value;
+const comments = comments.elements.comment.value;
+
+const newComment = document.createElement('li');
+const bTag = document.createElement('b');
+bTag.append(username)
+newComment.append(bTag);
+newComment.append(`- ${comments}`)
+});
