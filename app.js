@@ -48,3 +48,9 @@ const addComment = (username,comments) => {
  newComment.append(`- ${comments}`)
  commentsContainer.append(newComment);
 }
+
+
+const input = document.querySelector('#inputEvt'); 
+input.addEventListener('input' , function(e){
+    console.log('is this working?');
+})
