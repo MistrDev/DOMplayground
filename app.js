@@ -7,6 +7,7 @@ button.addEventListener('click', function () {
   h3.innerText = newColor;
 })
 
+
 // This function gives us a random color and returns it in rgb also a global function for a random color
 const randomColor = () => {
   const R = Math.floor(Math.random() * 256);
@@ -18,7 +19,6 @@ const randomColor = () => {
 
 // ALL buttons on page change colors when clicked used the randomColor function
 const buttons = document.querySelectorAll('button');
-
 for (let button of buttons) {
     button.addEventListener('click', function() {
         button.style.backgroundColor = randomColor();
@@ -38,6 +38,7 @@ addComment(usernameInput.value ,commentsInput.value)
 usernameInput.value = '';
 commentsInput.value = '';
 });
+
 
 // this makes a new <b> tag and <li> and posts the users comment below.
 const addComment = (username,comments) => {
