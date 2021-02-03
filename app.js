@@ -51,7 +51,9 @@ const addComment = (username,comments) => {
 }
 
 
+// changes the header (h2) as the user updates the input
 const input = document.querySelector('#inputEvt'); 
+const h2 = document.querySelector('#inputE')
 input.addEventListener('input' , function(e){
-    console.log('is this working?');
+    h2.innerText = input.value
 })
