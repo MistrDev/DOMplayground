@@ -57,3 +57,6 @@ const h2 = document.querySelector('#inputE')
 input.addEventListener('input' , function(e){
     h2.innerText = input.value
 })
+
+//THINGS TO DO TODAY:
+//ADD A STAND STILL HEADER THAT SAYS WELCOME AND CHANGE THE REST WITH THE INPUT FUNCTION
