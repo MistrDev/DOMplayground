@@ -50,9 +50,7 @@ const addComment = (username,comments) => {
  commentsContainer.append(newComment);
 }
 
-//commentsContainer.addEventListener('click' function (e){
-  //e.target.nodeName === 'LI' && e.target.remove();
-//})
+
 
 
 // changes the header (h2) as the user updates the input
