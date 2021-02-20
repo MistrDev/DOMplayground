@@ -20,6 +20,8 @@
 
 
 body {
-    background-color: rgb(225, 223, 223);
+    
+    transition:  2s background-color;
 }
+
 
